@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 84% 5%;
+    --foreground: 210 40% 98%;
+
+    --card: 220 45% 15%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 220 45% 15%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 195 100% 50%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 195 100% 50%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 220 84% 5%;
+    --sidebar-foreground: 210 40% 98%;
+    --sidebar-primary: 195 100% 50%;
+    --sidebar-primary-foreground: 222.2 47.4% 11.2%;
+    --sidebar-accent: 217.2 32.6% 17.5%;
+    --sidebar-accent-foreground: 210 40% 98%;
+    --sidebar-border: 217.2 32.6% 17.5%;
+    --sidebar-ring: 195 100% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-midnight text-foreground font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer components {
+  .module-card {
+    @apply bg-gradient-to-br from-slate-card to-[#0F1419] border border-slate-400/20 rounded-xl p-6 hover:border-electric-teal/50 transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-electric-teal/10;
+  }
+  
+  .code-editor {
+    @apply bg-black border border-slate-400/20 rounded-lg p-4 font-mono text-sm text-foreground;
+  }
+  
+  .status-indicator {
+    @apply inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-medium;
+  }
+  
+  .status-success {
+    @apply bg-jade-green/20 text-jade-green border border-jade-green/30;
+  }
+  
+  .status-warning {
+    @apply bg-sunset-orange/20 text-sunset-orange border border-sunset-orange/30;
+  }
+  
+  .status-loading {
+    @apply bg-electric-teal/20 text-electric-teal border border-electric-teal/30;
+  }
+}
