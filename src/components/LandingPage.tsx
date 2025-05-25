@@ -110,7 +110,7 @@ const LandingPage = ({ onEnterApp }: LandingPageProps) => {
       <header className="relative z-10 flex justify-between items-center p-6 border-b border-slate-400/20">
         <div className="flex items-center gap-3">
           <img 
-            src="/lovable-uploads/fd85d8cb-27fb-4676-b7e3-8317940f36df.png" 
+            src="logo.png" 
             alt="DevSuite" 
             className="h-10 w-auto"
           />
