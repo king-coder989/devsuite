@@ -9,10 +9,8 @@ DevSuite is a modular Sui blockchain developer toolkit built with React, TypeScr
 ```
 DevSuite/
 ├── public/
-│   ├── lovable-uploads/          # Static assets
-│   │   ├── ca78a567-*.png       # Primary logo
-│   │   └── fd85d8cb-*.png       # Header logo
-│   └── favicon.ico
+│   ├── logo-*.png
+│   
 ├── src/
 │   ├── components/              # React components
 │   │   ├── ui/                 # shadcn/ui components
