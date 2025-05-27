@@ -106,7 +106,7 @@ const Dashboard = ({ onModuleSelect, user, onLogout }: DashboardProps) => {
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <div className="flex flex-col items-center gap-2">
-              <img src="/lovable-uploads/fd85d8cb-27fb-4676-b7e3-8317940f36df.png" alt="DevSuite Logo" className="h-16 w-auto" />
+              <img src="logo.png" alt="DevSuite Logo" className="h-16 w-auto" />
               <p className="text-sm text-cool-gray">Sui Developer Dashboard</p>
             </div>
             <div className="flex items-center gap-4">
@@ -213,7 +213,7 @@ const Dashboard = ({ onModuleSelect, user, onLogout }: DashboardProps) => {
                 One dashboard. Ten breakthrough tools. Infinite possibilities on Sui.
               </p>
               <div className="flex items-center gap-4 justify-center md:justify-start">
-                <img src="/lovable-uploads/ca78a567-8f65-4ab6-8ada-58b241900c4c.png" alt="DevSuite Logo" className="h-6 w-auto" />
+                <img src="logo.png" alt="DevSuite Logo" className="h-6 w-auto" />
                 <span className="text-electric-teal text-sm font-medium">DevSuite 2025</span>
               </div>
             </div>
