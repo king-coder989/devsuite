@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -108,13 +109,13 @@ const LandingPage = ({ onEnterApp }: LandingPageProps) => {
 
       {/* Header */}
       <header className="relative z-10 flex justify-between items-center p-6 border-b border-slate-400/20">
-        <div className="flex items-center gap-3">
+        <div className="flex flex-col items-center gap-2">
           <img 
             src="logo.png" 
-            alt="DevSuite" 
-            className="h-10 w-auto"
+            alt="DevSuite Logo" 
+            className="h-24 w-auto"
           />
-          <span className="text-xl font-display font-bold">DevSuite</span>
+          <p className="text-sm text-cool-gray">Sui Developer Dashboard</p>
         </div>
         <nav className="hidden md:flex gap-6">
           <a href="#modules" className="hover:text-electric-teal transition-colors">Modules</a>
@@ -293,13 +294,13 @@ const LandingPage = ({ onEnterApp }: LandingPageProps) => {
       <footer className="relative z-10 border-t border-slate-400/20 px-6 py-12">
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="flex items-center gap-3 mb-6 md:mb-0">
+            <div className="flex flex-col items-center gap-2 mb-6 md:mb-0">
               <img 
                 src="logo.png" 
-                alt="DevSuite" 
-                className="h-8 w-auto"
+                alt="DevSuite Logo" 
+                className="h-20 w-auto"
               />
-              <span className="text-lg font-display font-bold">DevSuite</span>
+              <span className="text-sm text-cool-gray">Sui Developer Dashboard</span>
             </div>
             <div className="flex gap-6">
               <a href="https://github.com/king-coder989" target="_blank" rel="noopener noreferrer" className="text-cool-gray hover:text-electric-teal transition-colors">
