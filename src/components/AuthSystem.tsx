@@ -118,7 +118,7 @@ const AuthSystem = ({ onAuthenticated }: AuthSystemProps) => {
         {/* Header */}
         <div className="text-center mb-8">
           <img 
-            src="/lovable-uploads/fd85d8cb-27fb-4676-b7e3-8317940f36df.png" 
+            src="logo.png" 
             alt="DevSuite Logo" 
             className="h-16 w-auto mx-auto mb-4" 
           />
